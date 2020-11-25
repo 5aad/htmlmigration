@@ -1,0 +1,376 @@
+.root {
+  --lightgray: lightgray;
+  --primaryColor: black;
+  --themeColor: green;
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+/* Top Header */
+.topHeader {
+  padding: 0.5em;
+  text-align: right;
+}
+
+.headerBtn__close {
+  height: 1.2em;
+  width: 1.2em;
+  border-radius: 50%;
+  display: inline-block;
+  text-decoration: none;
+  background-image: url(../images/close.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.headerBtn__minimize {
+  height: 1.2em;
+  width: 1.2em;
+  border-radius: 50%;
+  display: inline-block;
+  text-decoration: none;
+  background-image: url(../images/minimize.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.headerBtn__maximize {
+  height: 1.2em;
+  width: 1.2em;
+  border-radius: 50%;
+  display: inline-block;
+  text-decoration: none;
+  background-image: url(../images/maximize.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+/* Main Header */
+.mainHeader {
+  padding: 0.2em 1.5em;
+  text-align: center;
+  border-bottom: 2px solid lightgray;
+}
+
+.mainHeader .brandLogo {
+  color: green;
+  font-size: 2.5em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.mainHeader .user {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  display: inline-block;
+  text-align: center;
+  vertical-align: bottom;
+  line-height: 2.4;
+  float: right;
+}
+
+.mainHeader .user i {
+  font-size: 1.3em;
+  color: lightgray;
+}
+
+.user img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Hero Section */
+.heroSection {
+  padding: 1em 1.5em;
+}
+
+.heroSection .searchInput {
+  border: 1px solid lightgray;
+  border-radius: 0.4em;
+  padding: 0.5em;
+  width: 100%;
+  color:black;
+  outline: none;
+}
+
+.heroSection .searchArea {
+  position: relative;
+}
+
+.heroSection .searchArea i {
+  position: absolute;
+  right: 0.3em;
+  top: 0.3em;
+  color: lightgray;
+  font-size: 1.5em;
+}
+
+.heroSection .searchInput::placeholder {
+  text-align: center;
+}
+
+.mainHeading {
+  color: black;
+  font-size: 1.5em;
+  margin: 0.3em 0;
+  padding-left: 0.4em;
+}
+
+.box {
+  height: 8em;
+  width: 8em;
+  border: 1px solid lightgray;
+  border-radius: 0.8em;
+  margin-right: 1.5em;
+}
+
+.box img{
+  width: 100%;
+  height: 100%;
+  border-radius: 0.8em;
+  display: block;
+  object-fit: cover;
+}
+
+.smallBoxes {
+  display: flex;
+  margin-bottom: 0.7em;
+}
+
+.heroSection .box .bigBox {
+  width: 14em;
+  height: 16.7em;
+}
+
+.bigBox{
+  width: 14em;
+  height: 16.7em;
+}
+
+.heroSection .boxesParent {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Modal */
+.myModal .booking {
+  border: 1px solid lightgray;
+  padding: 0.5em;
+  height: 350px;
+  border-radius: 0.8em;
+  position: relative;
+}
+
+.myModal .bookButton {
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.5em;
+  border: 1px solid lightgray;
+  border-radius: 0.4em;
+}
+
+.myModal .noteBox {
+  border: 1px solid lightgray;
+  border-radius: 0.4em;
+}
+
+.myModal .modalText {
+  color: black;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.myModal .total {
+  border-top: 1px solid black;
+  padding: 0.7em 1em;
+}
+
+.myModal .note {
+  padding: 0.7em 1em;
+  margin-top: 0.3em;
+}
+
+/* Dash Board */
+.dashboardSection {
+  padding: 1em 1.5em;
+}
+
+.dashboardSection .userImg {
+  height: 3em;
+  width: 3em;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 3.6;
+}
+
+
+.dashboardSection .userImg i {
+  font-size: 2em;
+  color: lightgray;
+}
+
+.dashboardSection .userName {
+  color: black;
+  font-size: 1.4em;
+  display: inline-block;
+  display: block;
+  margin-top: 0.3em;
+}
+
+.userImg img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+}
+
+.dashboardLinks .sideLinks {
+  color: black;
+  display: block;
+  margin-bottom: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dashboardTwo .mainHeading {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1em;
+}
+
+.dashboardParent {
+  border: 2px solid lightgray;
+  border-radius: 0.3em;
+  margin-top: 1.8em;
+}
+
+.dashboardParent .borderCol {
+  border-right: 1px solid lightgray;
+}
+
+.dashboardTwo .mainText.text-center {
+  font-size: 1.2em;
+}
+
+.dashboardSection .dashboardBox {
+  border: 2px solid lightgray;
+  border-radius: 0.3em;
+  padding: 1.3em 0 1.3em 1.3em;
+}
+
+.dashboardSection .myAppoimentBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid lightgray;
+  border-radius: 0.8em;
+  padding: 1.5em;
+  margin-top: 2em;
+  height: 491px;
+  flex-wrap: wrap;
+}
+
+.myAppoimentBox .box {
+  position: relative;
+}
+
+.myAppoimentBox .box .mainText {
+  font-size: 1.4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.myAppoimentBox .circle {
+  display: inline-block;
+  border: 1px solid orange;
+  height: 1.2em;
+  width: 1.2em;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.dashboardSection .dashboardTwo {
+  border: 1px solid lightgray;
+  margin: 0.6em;
+  padding: 1em;
+  border-radius: 0.3em;
+}
+
+/* Posting Section */
+.postingSection {
+  padding: 1em 1.5em;
+}
+
+.postingSection .newPosting {
+  color: orange;
+  display: block;
+  text-decoration: none;
+  text-align: right;
+  margin-top: 3em;
+}
+
+.today {
+  background-color: rgba(65, 105, 255, 0.3);
+  color: royalblue;
+  padding: 0.7em;
+  text-align: center;
+}
+
+.todayList {
+  border: 1px solid lightgray;
+  border-radius: 0.3em;
+  height: 750px;
+  margin: 0.7em 0.7em 8em 0.7em
+}
+
+.postingSection .smallBoxes {
+  justify-content: center;
+}
+
+/* Media Queries */
+@media (max-width: 786px) {
+  .dashboardParent .borderCol {
+      border-right: none;
+  }
+
+  .dashboardSection .myAppoimentBox {
+      justify-content: center;
+  }
+
+  /* .box {
+      height: 6em;
+      width: 6em;
+  }
+ .dashboardSection .box {
+      height: 4em;
+  } */
+  .postingSection .smallBoxes {
+      padding-left: 1.2em;
+  }
+
+  .smallBoxes {
+      display: unset;
+  }
+
+  .box {
+      margin: 0.7em auto;
+  }
+}
